@@ -1,16 +1,33 @@
-# mindease
+# MindEase
 
-A new Flutter project.
+MindEase is a Flutter-based mental wellness application focused on daily emotional check-ins, guided support, and self-reflection. The app is designed to provide a calm, minimal, and supportive experience for users to track their mood, manage stress, and build emotional awareness over time.
 
-## Getting Started
+The project is built using Flutter and supports web deployment.
 
-This project is a starting point for a Flutter application.
+## Live Deployment
+The application is deployed and accessible at:
+https://mind-ease-indol.vercel.app/
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- User login with local state persistence
+- Daily mood check-in with energy level tracking
+- Guided breathing exercise
+- Comfort and grounding activities
+- Reflection and journaling
+- Mood and reflection history with insights
+- Profile management and logout
+- Responsive Flutter web interface
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+
+- Flutter (Web)
+- Dart
+- Provider (state management)
+- Vercel (deployment)
+
+## Deployment Notes
+
+The web version of this app is built using Flutter Web and deployed on Vercel.  
+Static routing and base path configuration are handled to support Flutter’s single-page application behavior.
+
